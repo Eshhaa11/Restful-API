@@ -17,7 +17,7 @@ class UsersList(Resource):
     def get(self):
 
         return users
-
+    
     def post(self):
         users_id = len(users) + 1
 
