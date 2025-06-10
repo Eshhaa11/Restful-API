@@ -31,7 +31,7 @@ class ContactsResource(Resource):
     
     def put(self, contact_id):
 
-        contacts[contact_id] = request.json['task']
+        contacts[contact_id] = request.json['contact']
 
         return {contact_id: contacts[contact_id]}
     
