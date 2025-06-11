@@ -10,3 +10,6 @@ CORS(app)
 
 api = Api(app)
 
+blogs = {}
+
+
