@@ -29,7 +29,7 @@ class BlogResource(Resource):
 
         return {blog_id: blogs[blog_id]}
     
-    def put(self, todo_id):
+    def put(self, blog_id):
 
         blogs[blog_id] = request.json['blog_title']
 
