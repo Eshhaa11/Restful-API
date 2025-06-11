@@ -12,4 +12,5 @@ api = Api(app)
 
 blogs = {}
 
+class BlogList(Resource)
 
